@@ -17,7 +17,7 @@ need to sign up for the course.)
 [Racket]: http://racket-lang.org/download/
 [compdata]: https://class.coursera.org/compdata-002/class
 
-Read [HtDP_prologue][].
+Read [the prologue to _How to Design Programs_][HtDP_prologue].
 
 [HtDP_prologue]: http://www.ccs.neu.edu/home/matthias/HtDP2e/part_prologue.html
 
@@ -30,18 +30,51 @@ Things to try beforehand
 
 2. Try typing the following and pressing return:
 
-```R
-1
-```
-```R
-1+2
-```
+	```R
+	1
+	```
 
-```R
-"Hello, World."
-```
+	```R
+	1 + 2
+	```
+	
+	```racket
+	(+ 1 2)
+	```
 
+	```R
+	"Hello, World."
+	```
 
+3. What is the difference between "syntax" and "semantics"? ([Wikipedia][] may be
+your friend.)
+
+[Wikipedia]: http://www.wikipedia.org
+
+4. Compute the sum of 1, 2 and 3. Multiply 48384 by 2091. Divide a billion by a
+   thousand.
+
+4. A _string_ is a sequence of characters, like this: `"Hello, World."`. The string
+   is normally written in quotes, but the quotes are not part of the
+   sting. (Question: what are the quotes for, then?).
+   
+   The computer sees this string more like this: `|H|e|l|l|o|,|
+   |W|o|r|l|d|.|`. That is, the computer doesn't know anything about "words" or
+   "punctuation"; the string really is a sequence of characters.
+   
+   Here are some people's names: `"James Geddes"`, `"Fred Blogs"`, `"Titus
+   Groan"`. Write down, in English, a very explicit set of instructions for
+   splitting these names into two parts: a _first name_ and a _surname_.
+   
+5. Follow your instructions (exactly!) on the string `"James  Geddes"` (there are
+   _two_ spaces between the names). What happens? Rewrite your instructions to
+   cope with this and related typos. 
+   
+6. Follow your instructions on the string `"Geddes, James"`. What happens?
+   Rewrite your instructions to cope.
+   
+7. Follow your instructions on `"James A. M. Geddes"`. What happens? Rewrite
+   your instructions to cope. (You should have a good paragraph or two at this point.)
 
 
 To discuss
