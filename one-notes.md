@@ -7,7 +7,7 @@ boolean (others?). Expressions: arithmetic, functions.
 Things to do beforehand
 -----------------------
 
-Download either [R][] and [RStudio][] or [Racket][]. Install it and make sure
+Download either [R][] and [RStudio][], or [Racket][]. Install it and make sure
 you can run it. For `R`, there is a series of videos showing you how to do just
 that at the Coursera course [Computing for Data Analysis][compdata]. (You will
 need to sign up for the course.)
@@ -30,6 +30,8 @@ Things to try beforehand
 
 2. Try typing the following and pressing return:
 
+	In R:
+	
 	```R
 	1
 	```
@@ -38,11 +40,21 @@ Things to try beforehand
 	1 + 2
 	```
 	
+	```R
+	"Hello, World."
+	```
+	
+	In Racket:
+	
 	```racket
+	1
+	```
+	
+	```scheme
 	(+ 1 2)
 	```
 
-	```R
+	```racket
 	"Hello, World."
 	```
 
