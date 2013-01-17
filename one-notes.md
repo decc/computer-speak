@@ -79,26 +79,26 @@ Things to try beforehand
 
 5. A common problem encountered in Excel is that of splitting up peoples' names
    into their components. Try this without using a computer.
-    1. A _string_ is a sequence of characters, like this: `"Hello, World."`. The
+    5.1. A _string_ is a sequence of characters, like this: `"Hello, World."`. The
 	   string is normally written surrounded by quotes, but the quotes are not
 	   part of the string. (Question: what are the quotes for, then?).
-	2. The computer sees the string more like this: `|H|e|l|l|o|,|
+	5.2. The computer sees the string more like this: `|H|e|l|l|o|,|
 	|W|o|r|l|d|.|`. That is, the computer doesn't know anything about "words" or
 	"punctuation"; the string really is just a sequence of characters.
-	3. Here are some people's names: `"James Geddes"`, `"Fred Blogs"`, `"Titus
-	   Groan"`. Write down, in English, a very explicit set of instructions for
-	   splitting these names into two parts: a _first name_ and a _surname_.
-	4. Follow your instructions (exactly!) on the string `"James Geddes"` which
+	5.3. Here are some people's names: `"James Geddes"`, `"Fred Blogs"`, `"Titus
+		Groan"`. Write down, in English, a very explicit set of instructions for
+		splitting these names into two parts: a _first name_ and a _surname_.
+	5.4. Follow your instructions (exactly!) on the string `"James Geddes"` which
 	   has _two_ spaces between the names). What happens? Rewrite your
 	   instructions to cope with this and related typos.
-    5. Follow your instructions on the string `"Geddes, James"`. What happens?
+    5.5. Follow your instructions on the string `"Geddes, James"`. What happens?
 	   Rewrite your instructions to cope.
-	6. Follow your instructions on `"James A. M. Geddes"`. What happens? Rewrite
+	5.6. Follow your instructions on `"James A. M. Geddes"`. What happens? Rewrite
 	   your instructions to cope. (You should have a good paragraph or two at
 	   this point.)
-	7. Can you write down, in English, a very precise description of exactly
+	5.7. Can you write down, in English, a very precise description of exactly
 	   what strings are correctly split into first and surnames by your method?
-    8. Think up some names that will "break" the instructions in your method.
+    5.8. Think up some names that will "break" the instructions in your method.
 
 
 To discuss
