@@ -14,15 +14,18 @@ Discussion One
 Getting started
 ---------------
 
-For instructions on getting the software and help, see the file `one-notes.md`
+For instructions on getting the software and help, see the file `README.md`
 in the same place as you got this document.
 
 
 Things to try beforehand
 ------------------------
 
-1. Try typing the following and pressing return (or entering them in the
-   "definitions window" and clicking "run"):
+1. Try typing the following into DrRacket's "interactions window" and pressing
+   return (or enter them in the "definitions window" and click "run". If you
+   have no idea which window is which, see [this explanation][DrRacket interface_essentials]).  
+   
+   [DrRacket interface_essentials]: http://docs.racket-lang.org/drracket/interface-essentials.html
 
 	```scheme
 	1
