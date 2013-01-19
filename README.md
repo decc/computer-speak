@@ -14,7 +14,7 @@ An informal introduction to programming, intended to provide a bit of structure
 for a weekly discussion group.
 
 
-Getting Started
+Getting started
 ---------------
 
 1. Download and install [Racket][Racket download]. See
