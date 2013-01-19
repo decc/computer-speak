@@ -1,26 +1,66 @@
 A gentle introduction to programming
 ====================================
 
-> The Difference Engine can in reality (as has been already partly explained) do
-> nothing but add; and any other processes, not excepting those of simple
-> subtraction, multiplication and division, can be performed by it only just to
-> that extent in which it is possible, by judicious mathematical arrangement and
-> artifices, to reduce them to a series of additions.
-> 
-> — *Ada Lovelace (d. 1852)*
+> [Languages like Racket are] worth learning for a different reason — the
+> profound enlightenment experience you will have when you finally get it. That
+> experience will make you a better programmer for the rest of your days, even
+> if you never actually use [the language] itself a lot.  
+>
+> — *[How To Become A Hacker][hacker-howto]* (2001), Eric S. Raymond
 
-I learned to program twice.
+[hacker-howto]: http://www.catb.org/esr/faqs/hacker-howto.html
 
-I first learned to program was when I was about 15. I learned `C`, a traditional
-language still used today. One explains to the computer exactly what one wants
-it to do, one step at a time, using small set of primitive operations which the
-computer understands. 
 
-The second time I learned to program was in grad school. I read a book with the
-rather peculiar title of *The Structure and Interpretation of Computer
-Programs*. Or rather I read the first chapter. Three times. On the third time
-through my brain rotated ninety degrees and I never looked at programming the
-same way again.
+Getting Started
+---------------
+
+* Download and install [Racket][Racket download]. See the
+  [getting started guide][Racket getting_started] for more information.
+
+* Make sure you can run the front-end, "DrRacket".
+
+* Try out the exercises in the note accompanying this document (the one you are
+  reading).
+
+* If you are interested, read
+  [the prologue to _How to Design Programs_][HtDP Prologue].
+
+
+Getting help
+------------
+
+* The [Racket website][].
+
+* Huge amounts of [manuals, documentation, and textbooks][Racket documentation],
+  including:
+
+    - The [Racket guide][] if you already have some experience with programming.
+	
+	- [How to Design Programs][HtDP], an introductory textbook.
+
+[Racket getting_started]: http://docs.racket-lang.org/getting-started/index.html
+[Racket website]: http://racket-lang.org
+[Racket documentation]: http://docs.racket-lang.org
+[Racket guide]: http://docs.racket-lang.org/guide/index.html
+[HtDP]: http://www.htdp.org
+[Racket download]: http://racket-lang.org/download/
+[HtDP Prologue]: http://www.ccs.neu.edu/home/matthias/HtDP2e/part_prologue.html
+
+
+Books
+-----
+
+* [The Little Schemer][]. It's weird.
+
+* [The Seasoned Schemer][]: More of the above. 
+
+* [Structure and Interpretation of Computer Programs][SICP]. The textbook
+  from MIT's (in)famous introduction to computer science course. The book that
+  changed my understanding of programming forever.
+
+[The Little Schemer]: http://www.ccs.neu.edu/home/matthias/BTLS/
+[The Seasoned Schemer]: http://www.ccs.neu.edu/home/matthias/BTSS/
+[SICP]: http://mitpress.mit.edu/sicp/
 
 
  

@@ -1,78 +1,82 @@
-Notes for discussion 1
-======================
 
-To cover: REPL -- values -- expressions -- variables and definitions. Values:
-numeric, string, boolean (others?). Expressions: arithmetic, functions.
+Discussion One
+==============
 
-Things to do beforehand
------------------------
 
-There are two components to each language:
+> The Difference Engine can in reality (as has been already partly explained) do
+> nothing but add; and any other processes, not excepting those of simple
+> subtraction, multiplication and division, can be performed by it only just to
+> that extent in which it is possible, by judicious mathematical arrangement and
+> artifices, to reduce them to a series of additions.
+> 
+> — *Ada Lovelace (d. 1852)*
 
-1.  a program which _implements_ the language: it takes your instructions and
-	carries them out; and
-	
-2.  another program which makes it convenient to talk to the first program.
+Getting started
+---------------
 
-This second program is sometimes called an "Integrated Development Environment",
-or possibly a "front-end". For R the front-end is called "RStudio" and for
-Racket it's called "DrRacket". The first thing to do is to get both the language
-implementation and the front-end.
-	
-### Instructions for Racket users
+For instructions on getting the software and help, see the file `one-notes.md`
+in the same place as you got this document.
 
-Download and install [Racket][]. Make sure you can run DrRacket. Try out the
-exercises below. Read [the prologue to _How to Design Programs_][HtDP_prologue].
-
-### Instructions for R users
-
-Download and install [R][] and [RStudio][]. There is a series of videos showing
-you how to do just that at the Coursera course
-[Computing for Data Analysis][compdata]. (You will need to sign up for the
-course.) Try out the exercises below. Read chapter 1 of [_An Introduction To R_][IntroR]
-
-[R]: http://cran.ma.imperial.ac.uk
-[RStudio]: http://www.rstudio.com/ide/download/
-[Racket]: http://racket-lang.org/download/
-[compdata]: https://class.coursera.org/compdata-002/class
-[HtDP_prologue]: http://www.ccs.neu.edu/home/matthias/HtDP2e/part_prologue.html
-[IntroR]: http://cran.r-project.org/doc/manuals/r-release/R-intro.html
 
 Things to try beforehand
 ------------------------
 
-1. What does the acronym "REPL" stand for? (Feel free to use
-   [Google](http://www.google.com)!)
+1. Try typing the following and pressing return (or entering them in the
+   "definitions window" and clicking "run"):
 
-2. Try typing the following and pressing return:
-
-    In either R or racket:
-	
-	```R
+ 	```scheme
 	1
 	```
 
-	```R
-	1 + 2
-	```
-	
-	```R
-	"Hello, World."
-	```
-	
-	In Racket:
-	
-	```scheme
-	1
-	```
-	
 	```scheme
 	(+ 1 2)
 	```
-
+	
 	```scheme
 	"Hello, World."
 	```
+	
+	```scheme
+	(+ 1 (+ 2 3))
+	```
+	
+	```scheme
+	(* 2 3)
+	```
+	
+	```scheme
+	(* (+ 1 2) (/ 8 4))
+	```
+	
+	```scheme
+	(sqrt 16)
+	```
+	
+	```scheme
+	(/ 1 2)
+	````
+	
+	```scheme
+	(/ 1 0)
+	```
+	
+	```scheme
+	(= 1 2)
+	```
+	
+	```scheme
+	(= 2 2)
+	```
+	
+	```scheme
+	(> 2 1)
+	```
+	
+	
+	
+	
+2. What does the acronym "REPL" stand for? (Feel free to use
+   [Google](http://www.google.com)!)
 
 3. What is the difference between "syntax" and "semantics"? ([Wikipedia][] may
    be your friend.)
@@ -117,14 +121,13 @@ Things to try beforehand
 13. Think up some names that will "break" the instructions in your method.
 
 
-To discuss
-----------
+Notes for the discussion
+------------------------
 
+To cover: REPL -- values -- expressions -- variables and definitions. Values:
+numeric, string, boolean (others?). Expressions: arithmetic, functions.
 Explain REPL.
 
-Values.
-
-Expressions.
 
 
 
