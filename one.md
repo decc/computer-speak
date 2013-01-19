@@ -18,13 +18,17 @@ For instructions on getting the software and getting help, see the file `README.
 from the same place as you got this document.
 
 
-Things to try beforehand
-------------------------
+Things to try
+-------------
+	
+One way to begin is just to try out some examples. Here are some to start you
+off, plus a few things to think about that don't require a computer.
 
-1. Here are some examples to try out. You type them into DrRacket's
-   "interactions window" and press return, or enter them into the "definitions
-   window" and click "run". (If you have no idea which window is which, see
-   [this explanation][DrRacket interface_essentials]).
+1. Type the following into DrRacket's "interactions window" and press return, or
+   enter them into the "definitions window" and click "run". (If you have no
+   idea which window is which, see
+   [this explanation][DrRacket interface_essentials]). As you try these, try to
+   answer the question, "what just happened?".
    
    [DrRacket interface_essentials]: http://docs.racket-lang.org/drracket/interface-essentials.html
 
