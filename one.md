@@ -2,7 +2,6 @@
 Discussion One
 ==============
 
-
 > The Difference Engine can in reality (as has been already partly explained) do
 > nothing but add; and any other processes, not excepting those of simple
 > subtraction, multiplication and division, can be performed by it only just to
@@ -10,6 +9,7 @@ Discussion One
 > artifices, to reduce them to a series of additions.
 > 
 > — *Ada Lovelace (d. 1852)*
+
 
 Getting started
 ---------------
@@ -24,7 +24,7 @@ Things to try beforehand
 1. Try typing the following and pressing return (or entering them in the
    "definitions window" and clicking "run"):
 
- 	```scheme
+	```scheme
 	1
 	```
 
@@ -71,10 +71,7 @@ Things to try beforehand
 	```scheme
 	(> 2 1)
 	```
-	
-	
-	
-	
+		
 2. What does the acronym "REPL" stand for? (Feel free to use
    [Google](http://www.google.com)!)
 
