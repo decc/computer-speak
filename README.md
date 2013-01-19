@@ -4,11 +4,11 @@
 > experience will make you a better programmer for the rest of your days, even
 > if you never actually use [Racket] itself a lot.  
 >
-> — *[How To Become A Hacker][hacker-howto]* (2001), Eric S. Raymond
+> -- *[How To Become A Hacker][hacker-howto]* (2001), Eric S. Raymond
 
 
-computer-speak
-==============
+What's this?
+============
 
 An informal introduction to programming, intended to provide a bit of structure
 for a weekly discussion group.
@@ -17,28 +17,26 @@ for a weekly discussion group.
 Getting Started
 ---------------
 
-* Download and install [Racket][Racket download]. See
-  [the getting started guide][Racket getting_started] for more information.
+1. Download and install [Racket][Racket download]. See
+   [the getting started guide][Racket getting_started] for more information.
 
-* Make sure you can run the front-end, "DrRacket". It should look like the
-  picture in [these instructions][DrRacket interface_essentials].
+2. Make sure you can run the front-end, "DrRacket". It should look like the
+   picture in [these instructions][DrRacket interface_essentials].
 
-* Try out the exercises for the first discussion -- click on the file called
-  `one.md` in the list above.
+3. Try out the exercises for the first discussion -- click on the file called
+   `one.md` in the list above.
 
-* If you are interested, read
-  [the prologue to _How to Design Programs_][HtDP Prologue].
+4. If you are interested, read
+   [the prologue to _How to Design Programs_][HtDP Prologue].
 
 
 Getting help
 ------------
 
-* Ask me, <James Geddes>. 
+* Ask me, James Geddes. 
 
-* Your first port of call online is the [Racket website][].
-
-* You will find [manuals, documentation, and textbooks][Racket documentation],
-  including:
+* Your first port of call online is the [Racket website][]. There you will find
+  [manuals, documentation, and textbooks][Racket documentation], including:
 
 	- [How to Design Programs][HtDP], an introductory textbook based around this
       language; and
@@ -49,15 +47,16 @@ Getting help
 Books (for interest)
 --------------------
 
-* [How to Design Programs][HtDP] (oneline). A textbook for a course on an
+* [How to Design Programs][HtDP] (online). A textbook for a course on an
   introduction to programming.
 
-* [Structure and Interpretation of Computer Programs][SICP] (online). The textbook
-  from MIT's (in)famous introduction to computer science course. The book that
-  changed my understanding of programming forever.
+* [Structure and Interpretation of Computer Programs][SICP] (online). The
+  textbook from MIT's (in)famous introduction to computer science course. This
+  book that changed my understanding of programming forever.
 
 * [The Little Schemer][]. Slightly odd: there is very little exposition, just
-  lots and lots of examples to try out.
+  lots and lots of examples to try out. But fun. Just don't try it as the *very*
+  first thing.
 
 * [The Seasoned Schemer][]: More of the above. 
 
