@@ -24,7 +24,7 @@ Getting started
    picture in [these instructions][DrRacket interface_essentials].
 
 3. Try out the exercises for the first discussion -- click on the file called
-   `one.md` in the list above.
+   **`one.md`** in the list above.
 
 4. If you are interested, read
    [the prologue to _How to Design Programs_][HtDP Prologue].

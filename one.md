@@ -131,6 +131,10 @@ To cover: REPL -- values -- expressions -- variables and definitions. Values:
 numeric, string, boolean (others?). Expressions: arithmetic, functions.
 Explain REPL.
 
+Talking: What is programming? -- what would you get out of learning to program?
+(Policy!...)
+
+
 
 
 
