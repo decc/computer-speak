@@ -92,30 +92,30 @@ Things to try beforehand
    the sun to reach the earth?
 
 4. A common problem encountered in Excel is that of splitting up peoples' names
-   into their components. Try the following without using a computer. A _string_
-   is a sequence of characters, like this: `"Hello, World."`. The string is
-   normally written surrounded by quotes, but the quotes are not part of the
-   string. (Question: what are the quotes for, then?).
-	
-	5. The computer sees the string more like this: `|H|e|l|l|o|,|
-	   |W|o|r|l|d|.|`. That is, the computer doesn't know anything about "words" or
-	   "punctuation"; the string really is just a sequence of characters.
+   into their components. Try the following without using a computer.
+   
+   A _string_ is a sequence of characters, like this: `"Hello, World."`. The
+   string is normally written surrounded by quotes, but the quotes are not part
+   of the string. (Question: what are the quotes for, then?). The computer sees
+   the string more like this: `|H|e|l|l|o|,| |W|o|r|l|d|.|`. That is, the
+   computer doesn't know anything about "words" or "punctuation"; the string
+   really is just a sequence of characters.
 
-6. Here are some people's names: `"James Geddes"`, `"Fred Blogs"`, `"Titus
-   Groan"`. Write down, in English, a very explicit set of instructions for
-   splitting these names into two parts: a _first name_ and a _surname_.
+	1. Here are some people's names: `"James Geddes"`, `"Fred Blogs"`, `"Titus
+	   Groan"`. Write down, in English, a very explicit set of instructions for
+	   splitting these names into two parts: a _first name_ and a _surname_.
 
-7. Follow your instructions (exactly!) on the string `"Geddes, James"`. What
-   happens? Rewrite your instructions to cope with names in *either* format.
+	2. Follow your instructions (exactly!) on the string `"Geddes, James"`. What
+	   happens? Rewrite your instructions to cope with names in *either* format.
 
-8. Follow your instructions on `"James A. M. Geddes"`. What happens? Rewrite
-   your instructions to cope. (You should have a good paragraph or two at this
-   point.)
+	3. Follow your instructions on `"James A. M. Geddes"`. What happens? Rewrite
+	   your instructions to cope. (You should have a good paragraph or two at
+	   this point.)
 
-9. Can you write down, in English, a very precise description of exactly what
-   strings are correctly split into first and surnames by your method?
+	4. Can you write down, in English, a very precise description of exactly
+	   what strings are correctly split into first and surnames by your method?
 
-10. Think up some names that will "break" the instructions in your method.
+	5. Think up some names that will "break" the instructions in your method.
 
 
 Notes for the discussion
