@@ -1,29 +1,51 @@
-Values
+* Learning to program:
+	- Solving problems
+	- Solving a problem, when you're not there
+	- Excel
+	- Policy
+	- Because the present world is massively suboptimal: see also British
+      rationing and American prohibition.
+
+* Values
 	- numbers
 	- strings
+	- boolean
 
-Expressions
+* Expressions
 
-Function application
+* Function application
 
-Values
+* Values
 	- functions
 	
-Definitions
+* Definitions
 	
-Defining functions
+* Defining functions
 
-Control structures
+* Control structures
 	- cond
 	- and, or
 	 
-Lambda ...
+* Lambda ...
 
-Values
+* Values
 	- lists
-	
 
-Datatypes
+* Scope
 
-Closures
+* Efficiency and the O(n) notation?
+
+* Datatypes
+
+* Closures
+
+These are language topics. What are topics in programmatic problem-solving?
+
+* Recursion
+
+* Abstraction
+
+* Essence
+
+
 

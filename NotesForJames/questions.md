@@ -10,5 +10,10 @@ Draw tax curve!
 
 Get the wolf, goat, and cabbage across the river ... looping ...
 
+Nim
+
+Noughts-and-crosses
+
+
 
 
