@@ -14,8 +14,8 @@ Discussion One
 Getting started
 ---------------
 
-For instructions on getting the software and getting help, see the file `README.md`
-from the same place as you got this document.
+For instructions on getting the software and getting help, see the file
+**`README.md`** from the same place as you got this document.
 
 
 Things to try
