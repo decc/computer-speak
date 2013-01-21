@@ -14,6 +14,10 @@ Nim
 
 Noughts-and-crosses
 
+Generating anagrams
+
+Adding up subtotals of a list (5 1 4 3) -> (5 6 10 13)
+
 
 
 
