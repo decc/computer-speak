@@ -14,8 +14,8 @@ Discussion One
 Getting started
 ---------------
 
-For instructions on getting the software and getting help, see the file `README.md`
-from the same place as you got this document.
+For instructions on getting the software and getting help, see the file
+**`README.md`** from the same place as you got this document.
 
 
 Things to try
@@ -110,11 +110,12 @@ off, plus a few things to think about that don't require a computer.
 	   splitting these names into two parts: a _first name_ and a _surname_.
 
 	2. Follow your instructions (exactly!) on the string `"Geddes, James"`. What
-	   happens? Rewrite your instructions to cope with names in *either* format.
+	   just happened? Rewrite your instructions to cope with names in *either*
+	   format.
 
-	3. Follow your instructions on `"James A. M. Geddes"`. What happens? Rewrite
-	   your instructions to cope. (You should have a good paragraph or two at
-	   this point.)
+	3. Follow your instructions on `"James A. M. Geddes"`. What just happened?
+	   Rewrite your instructions to cope. (You should have a good paragraph or
+	   two at this point.)
 
 	4. Can you write down, in English, a very precise description of exactly
 	   what strings are correctly split into first and surnames by your method?
@@ -127,9 +128,9 @@ Notes for the discussion
 
 (Please ignore the following.)
 
-To cover: REPL -- values -- expressions -- variables and definitions. Values:
-numeric, string, boolean (others?). Expressions: arithmetic, functions.
-Explain REPL.
+To cover: REPL -- values -- expressions -- function application. Variables and
+definitions?. Values: numeric, string, boolean (others?). Expressions:
+arithmetic, functions.  Explain REPL.
 
 Talking: What is programming? -- what would you get out of learning to program?
 (Policy!...)
