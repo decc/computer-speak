@@ -51,7 +51,7 @@ Books (for interest)
   introduction to programming.
 
 * [Structure and Interpretation of Computer Programs][SICP] (online). The
-  textbook from MIT's (in)famous introduction to computer science course. This
+  textbook from MIT's (in)famous introduction to computer science course. The
   book that changed my understanding of programming forever.
 
 * [The Little Schemer][]. Slightly odd: there is very little exposition, just
