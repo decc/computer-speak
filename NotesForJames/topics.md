@@ -5,47 +5,34 @@
 	- Policy
 	- Because the present world is massively suboptimal: see also British
       rationing and American prohibition.
-
 * Values
 	- numbers
 	- strings
 	- boolean
-
 * Expressions
-
-* Function application
-
+* Functions / function application
 * Values
 	- functions
-	
 * Definitions
-	
 * Defining functions
-
 * Control structures
 	- cond
 	- and, or
-	 
 * Lambda ...
-
+* Structs
 * Values
 	- lists
-
 * Scope
-
 * Efficiency and the O(n) notation?
-
 * Datatypes
-
 * Closures
 
 These are language topics. What are topics in programmatic problem-solving?
 
 * Recursion
-
 * Abstraction
-
 * Essence
+* Eliminating variations on a theme, in favour of the theme
 
 
 
