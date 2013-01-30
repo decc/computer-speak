@@ -1,3 +1,6 @@
+Discussion One
+--------------
+
 * Learning to program:
 	- Solving problems
 	- Solving a problem, when you're not there
@@ -10,11 +13,26 @@
 	- strings
 	- boolean
 * Expressions
-* Functions / function application
-* Values
-	- functions
+
+### Intro to next week
 * Definitions
 * Defining functions
+	- sqrt, expt, +, -, number? string? boolean?
+	- if
+* Values
+	- functions
+	
+	
+Discussion Two
+--------------
+
+* Recap
+	- values, expression
+	- function application
+	- definitions
+	- defining functions
+	
+	
 * Control structures
 	- cond
 	- and, or
