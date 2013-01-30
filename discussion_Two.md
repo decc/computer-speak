@@ -46,6 +46,13 @@ Some functions return `#t` or `#f`: for example, `>`, `<`, `<=` and `=`. There
 are functions to check what type a value is: `number?`, `string?`, and
 `boolean?`
 
+Look in [the Racket Guide](http://docs.racket-lang.org/guide/index.html),
+chapter 3, for more on the built-in types and functions that operate on
+them. Incidentally, a copy of the Guide should have downloaded along with Racket
+and displayed when you ask for help. So you don't need to be connected to the
+web to read it. 
+
+
 ### Making decisions
 
 Finally, for making decisions, we know `if`, which expects three arguments: if
