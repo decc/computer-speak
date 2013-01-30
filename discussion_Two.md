@@ -1,4 +1,3 @@
-
 Discussion Two
 ==============
 
@@ -69,8 +68,8 @@ argument; otherwise it's the value of the second argument. For example,
 ```
 
 
-Definitions
------------
+Things to try: Definitions
+--------------------------
 
 1.  Figure out how to change the language to "Racket" rather than "Beginning
 	Student." (You may have to set an option to "Determine language from
