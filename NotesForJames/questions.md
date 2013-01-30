@@ -15,6 +15,17 @@ Nim
 
 Noughts-and-crosses
 
+Decompose names
+
+Draw a tree
+
+Despatch model!
+
+Despatch model; computer acts as auctioneer?
+
+Tit-for-tat
+
+Compute a frequency distribution curve
 
 
 

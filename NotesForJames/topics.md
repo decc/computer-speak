@@ -1,3 +1,6 @@
+Discussion One
+--------------
+
 * Learning to program:
 	- Solving problems
 	- Solving a problem, when you're not there
@@ -5,23 +8,33 @@
 	- Policy
 	- Because the present world is massively suboptimal: see also British
       rationing and American prohibition.
-
 * Values
 	- numbers
 	- strings
 	- boolean
-
 * Expressions
-
+	- sqrt, expt, +, -, number? string? boolean?
+	- if
 * Function application
 
+### Intro to next week
+* Definitions
+* Defining functions
 * Values
 	- functions
 	
-* Definitions
 	
-* Defining functions
+Discussion Two
+--------------
 
+* Recap
+	- values, expression
+	- function application
+	- definitions
+	- defining functions
+	
+	
+	
 * Control structures
 	- cond
 	- and, or
