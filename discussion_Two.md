@@ -59,12 +59,12 @@ argument; otherwise it's the value of the second argument. For example,
 Some things to try
 ------------------
 
-1.  Figure out how to change the language to "Racket" rather "Beginning
+1.  Figure out how to change the language to "Racket" rather than "Beginning
 	Student." (You may have to set an option to "Determine language from
 	source", make sure that the first line of the definitions window is `#lang
 	Racket`, and click "Run".)
 
-2.  The trick (perhaps *the* trick) about programming is breaking up a problem
+2.  The trick (perhaps *the* trick) with programming is breaking up your problem
 	into smaller parts. If necessary, those parts are broken into smaller parts,
 	and so on, until one reaches problems that are simple enought to be solved
 	directly, or already built in to your chosen language.
@@ -73,47 +73,60 @@ Some things to try
      programming.
 	
 	Enter the following in the definitions window and click "run" (or find out
-	what the shortcut key is -- on a Mac it's CMD-R):
+	what the shortcut key is):
 	
 	```scheme
 	(define (patronise-dave s)
 		(string-append s ", Dave."))
 	```
 	
-	What do you think is the result of
+	Note that everything between quotes (`"`) is a single string. That is to
+	say, `", Dave"` is a single string, not two things. Anyway, what do you
+	think is the result of the following? Try to guess before running it.
 	
 	```scheme
 	(patronise-dave "I wouldn't do that if I were you")
 	```
 	
-	What about
+	What about this one?
 	
 	```scheme
 	(patronise-dave "I'm afraid I can't do that")
 	```
 	
+	A couple of points. First, in the definition, we made up *two* new
+	identifiers: `patronise-dave` and `s`. (Racket is pretty liberal about what
+	characters can occur in identifiers. Minus signs are fine, for example.)
+	`patronise-dave` was bound to a function; the rest of the definition
+	explains to Racket what the function actually does.
 	
+	Now, `s` is a bit different. When we wrote the definition, there was nothing
+	that was the value of `s`. `s` doesn't have a value until we *apply* the
+	function, as in the examples above. It's just a placeholder, so we have
+	something to refer to when writing the function. It's as if we said, "Please
+	define `patronise-dave` to be a function which takes one argument which I
+	will, for convenience, call `s`. The function has the following action:
+	append the string `", Dave."` to `s`.)
 	
+	It's just more convenient than saying something like "the first argument"
+	everywhere. 
 	
-	Another way of looking at this is 
-
-Languages start simple and get bigger. 
-
-The following expression adds 2 to whichever of 1 and 0 is greater:
+3.  We can give names to other values too, which can save typing. Try
 
 	```scheme
-	(if (> 1 0) (+ 2 1) (+ 2 0))
+	(define current-temp 99.5)
+	(* (/ 5 9) (- current-temp 32))
+	(if (> current-temp 98.6) "Fever!" "Not a fever")
 	```
 
-	What does this do?
+What does that do?
 
-	```scheme
-	(+ 2 (if (> 1 0) 1 0))
-	```
 	
-	Is there any reason to choose one over the other?
-	
-3.  
+
+
+Function of one argument
+
+
 	
 	
 	
