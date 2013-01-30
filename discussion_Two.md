@@ -115,19 +115,65 @@ Some things to try
 
 	```scheme
 	(define current-temp 99.5)
+	```
+	```scheme
 	(* (/ 5 9) (- current-temp 32))
+	```
+	```scheme
 	(if (> current-temp 98.6) "Fever!" "Not a fever")
 	```
 
-What does that do?
-
+	Notice that when defining a *variable*, like `current-temp`, there are no
+	paranthesis around the variable; and the variable is followed by a single
+	expression. When defining a *function*, like `patronise-dave`, there are
+	parentheses around it, and those are followed by one or more expressions.
 	
+4.  This function converts from Farenheit to Celsius:
 
-
-Function of one argument
-
-
+	```scheme
+	(define (farenheit->celsius temp)
+		(* (/ 5 9) 
+		   (- temp 32)))
+	```
 	
+	(Even `>` is allowed in variable names. This kind of name is the Racket
+	convention for conversions; for example, there is `number->string`.) Try
 	
+	```scheme
+	(farenheit->celsius 98.6)
+	```
 	
+5.  What do you think is the result of trying the following three expressoins:
+	
+	```scheme
+	(define temp 100)
+	(farenheit->celsius 32)
+	temp
+	```
+	
+	(Type them in the interaction window and press enter after each.)
+	
+6.  Write `celsius->farenheit` to do the inverse conversion. When you've written
+	it, try 
 
+	```scheme
+	(celsius->farenheit -40)
+	```
+	
+	Try
+	
+	```scheme
+	(farenheit->celsius (celsius->farenheit 37.5))
+	```
+	
+7.  (Harder). It turns out that there's no such thing as a temperature below
+	-273.15 degrees Celsius. Adapt `celsius->farenheit` to signal an error if
+	the argument is an unphysical temperature.
+	
+	You can signal an error with the expression
+	
+	```scheme
+	(error "temperature must be greater than absolute zero")
+	```
+
+	Hint: you will need to use `if`.
