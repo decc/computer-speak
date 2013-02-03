@@ -215,15 +215,17 @@ More things to try
 	 (state-of-water -10)
 	 ```
 	 
-	 There are *square* brackets in the above. Don't panic! Racket treats square
+	 There are *square brackets* in the above. Don't panic! Racket treats square
 	 brackets *just like* parentheses. It's traditional to use square brackets
 	 in `cond`s to make the code easier to read.  
 
 	 Notice that it is the expression following the *first* condition to return
-	 true that is evaluated; `else` is just a synonym for `#t` which works
-	 inside a `cond`.
+	 true that is evaluated. In the `cond` expression, `else` is just a synonym for `#t`.
 	 
-2.  `and` and `or` are ways to combine boolean expressions. `and` is `#t` if and
+2.  Look up `cond` in The Racket Guide and see what it says. (In general, get into the habit of
+	looking up anything in the Racket guide.)
+
+3.  `and` and `or` are ways to combine boolean expressions. `and` is `#t` if and
 	only if none of its arguments are `#f`, otherwise it is `#f`. `or` produces
 	the value of its first argument that is not `#f`.
 	
@@ -253,7 +255,7 @@ More things to try
 	 
 	 What just happened?
 	 
-3.  For the 2012/13 tax year, your income tax is calculated in the following way
+4.  For the 2012/13 tax year, your income tax is calculated in the following way
 	 (I'm ignoring complications including, but not limited to, the possibility
 	 that you are over 65, married, or having savings income): The first
 	 £8,105 is not taxed. Then, for taxable income up to £34,370, you are taxed
@@ -263,17 +265,40 @@ More things to try
 	 Define a function `income-tax` which computes your income tax given your
 	 gross income. For example `(income-tax 10000)` should give `379`. 
 	 
-4.	 Once you've defined a function you can use it in other functions. Define
+5.	 Once you've defined a function you can use it in other functions. Define
 	 the function `net-income`, which computes your net income after tax given
 	 your gross income. Hint: Use `income-tax`.
 	 
-5.   I lied about the tax methodology. Actually, for every £2 by which your
+6.   I lied about the tax methodology. Actually, for every £2 by which your
 	 gross income exceeds £100,000, your personal allowance (the £8,105) is
 	 reduced by £1.
 	 
 	 Fix `income-tax`. Does `net-income` now use the new `income-tax` or the old
 	 one?
 
+7.  The "body" of a `define` can be a sequence of expressions, not just one. The
+	value returned by the function will be the value of the last
+	expression. When functions do consist of a sequence of expressions, the
+	first ones are usually more `define`.
+	
+	Try
+	
+	```scheme
+	(define (feet->meters length)
+		(define inches-per-foot 12)
+		(define cm-per-inch 2.54)
+		(define meters-per-foot (* inches-per-foot (/ cm-per-inch 100)))
+		(* length meters-per-foot))
+	````
+	
+8.  After that last questions, try
+
+	```scheme
+	meters-per-foot
+	```
+	
+	What just happened?
+	
 
 Even more things to try
 -----------------------
@@ -386,5 +411,18 @@ sized data. In Racket, the most basic way of doing this is with a list.
 
 6.  Look up lists in How to Design Programs (or the Racket Guide). Don't worry
 	if you get lost. 
+
+7.  Did you skip the question about income tax? What's hard about that question
+	is converting the *rules* into an *algorithm*. 
 	
+	Programming is not -- unforunately -- like ordering the mops to wash in
+	*Fantasia*. You have to figure out how to answer the problem before you can
+	tell the computer how to do it. Later on, we'll see how it's possible to
+	attack seemingly intractable problems using divide-and-conquer: and those
+	approaches do sometimes seem like magic. 
+	
+	If you skipped the problem, try to solve it in English. Imagine you have a
+	very bright, but extraordinarily literal-minded 10-year-old nephew. You need
+	to write down completely unambiguous instructions for him to calculate your
+	income tax. Have a go.  
 	
