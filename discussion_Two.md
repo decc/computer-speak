@@ -209,16 +209,31 @@ More things to try
  			  [else "gas"]))
  	 ```
 	
-	 followed by, for example, `(state-of-water -10)`. 
-
-	 Notice that it is the *first* condition to return true that is evaluated;
-	 `else` is just a synonym for `#t` which works inside a `cond`.
+	 followed by, for example, 
 	 
-2.  `and` and `or` are ways to combine expressions. `and` is `#t` if and only if
-	none of its arguments are `#f`, otherwise it is `#f`. `or` produces the
-	value of its first argument that is not `#f`. 
+	 ```scheme
+	 (state-of-water -10)
+	 ```
+	 
+	 There are *square* brackets in the above. Don't panic! Racket treats square
+	 brackets *just like* parentheses. It's traditional to use square brackets
+	 in `cond`s to make the code easier to read.  
+
+	 Notice that it is the expression following the *first* condition to return
+	 true that is evaluated; `else` is just a synonym for `#t` which works
+	 inside a `cond`.
+	 
+2.  `and` and `or` are ways to combine boolean expressions. `and` is `#t` if and
+	only if none of its arguments are `#f`, otherwise it is `#f`. `or` produces
+	the value of its first argument that is not `#f`.
 	
-	True
+	Try
+	
+	```scheme
+	(and (> 2 1) (< 2 5))
+	```
+	
+	Try
 	
 	```scheme
 	(and 5 (string? "five")) 
@@ -240,7 +255,7 @@ More things to try
 	 
 3.  For the 2012/13 tax year, your income tax is calculated in the following way
 	 (I'm ignoring complications including, but not limited to, the possibility
-	 that you are over 65, or married, or having savings income): The first
+	 that you are over 65, married, or having savings income): The first
 	 £8,105 is not taxed. Then, for taxable income up to £34,370, you are taxed
 	 at 20%. Then, for the remainder of your taxable income up to £150,000 total,
 	 you are taxed at 40%. Then, for any income over this, you are taxed at 50%.   
@@ -360,7 +375,7 @@ sized data. In Racket, the most basic way of doing this is with a list.
 	
 	What just happened?
 
-5.  `map` is a very odd function. One of its argument is ... a function (`sqrt`
+5.  `map` is a very odd function. One of its argument is a *function* (`sqrt`
 	in this case). This function is applied to each element of the second
 	argument to `map`, which is a list, and the results are combined to form a
 	list.
