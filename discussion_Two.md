@@ -4,7 +4,7 @@ Discussion Two
 > Mathematicians are like Frenchmen: whatever you say to them they translate
 > into their own language, and forthwith it is something entirely different. 
 >
-> — Johann Wolfgang von Goethe
+> — *Johann Wolfgang von Goethe*
 
 Recap of Discussion One
 -----------------------
@@ -199,4 +199,177 @@ Things to try: Definitions
 More things to try
 ------------------
 
-[tbd]
+1.   `cond` is a more general way of making decisions. (I think you can read it
+	 as short for "condition".) Try
+	
+	 ```scheme
+	 (define (state-of-water temp) 
+ 		(cond [(<= temp 0) "solid"]
+  			  [(< temp 100) "liquid"]
+ 			  [else "gas"]))
+ 	 ```
+	
+	 followed by, for example, `(state-of-water -10)`. 
+
+	 Notice that it is the *first* condition to return true that is evaluated;
+	 `else` is just a synonym for `#t` which works inside a `cond`.
+	 
+2.  `and` and `or` are ways to combine expressions. `and` is `#t` if and only if
+	none of its arguments are `#f`, otherwise it is `#f`. `or` produces the
+	value of its first argument that is not `#f`. 
+	
+	True
+	
+	```scheme
+	(and 5 (string? "five")) 
+	```
+	
+	What just happened? Try
+	
+	```scheme
+	(or 5 (string? "five")) 
+	```
+	
+	and
+	
+	 ```scheme
+	 (and)
+	 ```
+	 
+	 What just happened?
+	 
+3.  For the 2012/13 tax year, your income tax is calculated in the following way
+	 (I'm ignoring complications including, but not limited to, the possibility
+	 that you are over 65, or married, or having savings income): The first
+	 £8,105 is not taxed. Then, for taxable income up to £34,370, you are taxed
+	 at 20%. Then, for the remainder of your taxable income up to £150,000 total,
+	 you are taxed at 40%. Then, for any income over this, you are taxed at 50%.   
+
+	 Define a function `income-tax` which computes your income tax given your
+	 gross income. For example `(income-tax 10000)` should give `379`. 
+	 
+4.	 Once you've defined a function you can use it in other functions. Define
+	 the function `net-income`, which computes your net income after tax given
+	 your gross income. Hint: Use `income-tax`.
+	 
+5.   I lied about the tax methodology. Actually, for every £2 by which your
+	 gross income exceeds £100,000, your personal allowance (the £8,105) is
+	 reduced by £1.
+	 
+	 Fix `income-tax`. Does `net-income` now use the new `income-tax` or the old
+	 one?
+
+
+Even more things to try
+-----------------------
+
+Computer programs would be boring if they only ever produced the same
+output. That's why functions are so important: they turn *input* into *output*:
+They produce a different answer depending on what is handed to them.
+
+For example, we've made functions, like `farenheit->celsius`, which know what to
+do with different numerical values of the arguments. Often, however, we don't
+even know how *many* values there are going to be. What if we wanted to find the
+maximum temperature of a list of temperatures? It would be a real pain to have
+to define a separate function for the case of two temperatures, three
+temperatures, four temperatures, and so on. Fortunately, we don't have to.
+
+But -- to harken back to the introduction -- before we can write a function
+which works with different sized data, we need to be able to *express* different
+sized data. In Racket, the most basic way of doing this is with a list. 
+
+1. Try
+
+	```scheme
+	(list 1 2 3 4)
+	```
+	
+	```scheme
+	(list "DECC", "DfT", "BIS")
+	```
+	```scheme
+	(list 1 "DECC")
+	```
+
+2.  Lists are their own kind of value. Try:
+
+	```scheme
+	(list? 42)
+	```
+	
+	```scheme
+	(list? (list 42))
+	```
+	
+	```scheme
+	(list? '(42))
+	```
+	
+	What just happened?
+	
+3.  Given
+
+	```scheme
+	(define x 10)
+	```
+	
+	what is the difference between
+	
+	```scheme
+	(list 1 x 100)
+	```
+	
+	and
+	
+	```scheme
+	'(1 x 100)
+	```
+	
+	? (There's a single quote before the open parenthesis.)
+	
+3.  Start with
+
+	```scheme
+	(define example-list '(1 2 3))
+	```
+	
+	What is
+	
+	```scheme
+	(first example-list)
+	```
+	
+	```scheme
+	(rest example-list)
+	```
+	
+	```scheme
+	(rest (rest (rest example-list)))
+	```
+	
+	```scheme
+	(empty? '())
+	```	
+	?
+	
+4.  Try
+
+	```scheme
+	(map sqrt '(1 4 9 16 40))
+	```
+	
+	What just happened?
+
+5.  `map` is a very odd function. One of its argument is ... a function (`sqrt`
+	in this case). This function is applied to each element of the second
+	argument to `map`, which is a list, and the results are combined to form a
+	list.
+	
+	In one expression, find the `income-tax` for the following gross incomes:
+	£10,000, £20,000, and £50,000. Hint: Write an expression which applies some
+	function to the list `'(10000 20000 50000)`.
+
+6.  Look up lists in How to Design Programs (or the Racket Guide). Don't worry
+	if you get lost. 
+	
+	

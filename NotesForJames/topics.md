@@ -32,7 +32,11 @@ Discussion Two
 	- definitions
 	- defining functions
 	
-	
+* map
+
+
+
+
 * Control structures
 	- cond
 	- and, or
