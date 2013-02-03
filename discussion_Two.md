@@ -291,7 +291,13 @@ More things to try
 		(* length meters-per-foot))
 	````
 	
-8.  After that last questions, try
+	followed by
+	
+	```scheme
+	(feet->meters 3)
+	```
+	
+8.  After that last question, try
 
 	```scheme
 	meters-per-foot
@@ -412,17 +418,17 @@ sized data. In Racket, the most basic way of doing this is with a list.
 6.  Look up lists in How to Design Programs (or the Racket Guide). Don't worry
 	if you get lost. 
 
-7.  Did you skip the question about income tax? What's hard about that question
-	is converting the *rules* into an *algorithm*. 
+7.  Did you skip the question about defining `income-tax`? What's hard about
+	that question is converting the *rules* of the tax code into an *algorithm*.
 	
-	Programming is not -- unforunately -- like ordering the mops to wash in
+	Programming is not -- unforunately! -- like ordering the mops to wash in
 	*Fantasia*. You have to figure out how to answer the problem before you can
 	tell the computer how to do it. Later on, we'll see how it's possible to
 	attack seemingly intractable problems using divide-and-conquer: and those
-	approaches do sometimes seem like magic. 
+	approaches do sometimes seem like magic.
 	
-	If you skipped the problem, try to solve it in English. Imagine you have a
-	very bright, but extraordinarily literal-minded 10-year-old nephew. You need
-	to write down completely unambiguous instructions for him to calculate your
-	income tax. Have a go.  
+	If you skipped this problem, however, try to solve it in English. Imagine
+	you have a very bright, but extraordinarily literal-minded 10-year-old
+	nephew. You need to write down completely unambiguous instructions for him
+	to calculate your income tax. Have a go.
 	
