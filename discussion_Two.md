@@ -300,8 +300,8 @@ More things to try
 	What just happened?
 	
 
-Even more things to try
------------------------
+Even more things to try (if you're feeling ambitious)
+-----------------------------------------------------
 
 Computer programs would be boring if they only ever produced the same
 output. That's why functions are so important: they turn *input* into *output*:
