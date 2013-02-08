@@ -4,11 +4,9 @@ Summary of the "grammar" so far
 
 We know that there are *values*:
 
-	````scheme
 	value = number
 	      | string
 		  | boolean
-	  ````
 	  
 That is to say, a *value* is either a *number* or a *string* or a *boolean*. 
 
