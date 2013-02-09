@@ -1,3 +1,8 @@
+> The Analytical Engine has no pretensions whatever to originate anything. It
+> can do whatever we know how to order it to perform.
+>
+> — *Ada Lovelace* (d. 1872) 
+
 Summary so far
 ==============
 
@@ -84,14 +89,15 @@ and therefore included by the terms above involving the word "name".
 In which case, you might well ask why I *have* included things that look like
 functions, namely `if` and `cond`. The answer is subtle. Expressions like `(name
 expr ...)` are evaluated by first evaluating each `expr`, and then *applying*
-the function `name` to the result. However, `(if expr expr expr)` is evaluated
-in a different way. The first `expr` is evaluated: if it is `#t` (or certain
-other values counted as "true"), then the second `expr` is evaluated; otherwise
-the last `expr` is evaluated. The point to note is that only one of the second
-and third `expr`s is ever evaluated.
+the function `name` to the result. However, `(if <expr> <expr> <expr>)` is evaluated
+in a different way. The first `<expr>` is evaluated: if it is `#t` (or certain
+other values counted as "true"), then the second `<expr>` is evaluated; otherwise
+the last `<expr>` is evaluated. The point to note is that only one of the second
+and third `<expr>`s is ever evaluated.
 
 Also, I'm lying slightly. It turns out that `cond` is defined in terms of `if`
 (I think). But that doesn't matter.
+
 
 What we don't yet know
 ======================
@@ -105,7 +111,7 @@ these include:
 
 * Recursion (breaking down a problem into similar, but simpler, problems)
 
-* Library functions. These include those to allow interaction with the "outside
-  world", eg, graphical display, reading and writing files, etc.
+* Library functions. Lots of vocabulary including, eg, functions for graphical
+  display, reading and writing files, etc.
   
   
