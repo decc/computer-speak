@@ -32,7 +32,12 @@ Discussion Two
 	- definitions
 	- defining functions
 	
+* contracts
+
+* cond
+* lists 
 * map
+
 
 
 
