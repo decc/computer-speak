@@ -3,7 +3,7 @@ Summary of the "grammar" so far
 
 We know that there are *values*:
 
-```bnf
+```abnf
 value ::= <number>
       | string
       | boolean
