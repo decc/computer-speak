@@ -1,11 +1,28 @@
-Summary of the "grammar" so far
-===============================
+Summary so far
+==============
+
+A language consists of a *grammar* and a *vocabulary*. The grammar explains what
+kinds of words there are, and how they may be combined to form possible
+sentences. The vocabulary lists the words themselves. A computer language is
+similar, except that the grammar is rigorously enforced: an expression is either
+gramatically correct or it isn't; and, if it isn't, then the computer won't
+listen to you.
+
+Luckily, computer languages are much simpler than real languages, so much so
+that we can explain the grammar using a little diagrammatic technique. 
+
+
+
+Grammar
+-------
+
+
 
 We know that there are *values*:
 
-    value = number
-      	  | string
-          | boolean
+    <value> = <number>
+      	    | <string>
+            | <boolean>
 
 That is to say, a *value* is either a *number* or a *string* or a *boolean*. 
 
