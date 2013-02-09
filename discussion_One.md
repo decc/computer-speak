@@ -95,17 +95,17 @@ off, plus a few things to think about that don't require a computer.
    sun; and a mile is about 8/5&nbsp;km. How long does it take the light from
    the sun to reach the earth?
 
-4. A common problem encountered in Excel is that of splitting up peoples' names
-   into their components. Try the following without using a computer.
+4.  A common problem encountered in Excel is that of splitting up peoples' names
+    into their components. Try the following without using a computer.
    
-   A _string_ is a sequence of characters, like this: `"Hello, World."`. The
-   string is normally written surrounded by quotes, but the quotes are not part
-   of the string. (Question: what are the quotes for, then?). The computer sees
-   the string more like this: `|H|e|l|l|o|,| |W|o|r|l|d|.|`. That is, the
-   computer doesn't know anything about "words" or "punctuation"; the string
-   really is just a sequence of characters.
+    A _string_ is a sequence of characters, like this: `"Hello, World."`. The
+    string is normally written surrounded by quotes, but the quotes are not part
+    of the string. (Question: what are the quotes for, then?). The computer sees
+    the string more like this: `|H|e|l|l|o|,| |W|o|r|l|d|.|`. That is, the
+    computer doesn't know anything about "words" or "punctuation"; the string
+    really is just a sequence of characters.
 
-	1. Here are some people's names: `"James Geddes"`, `"Fred Blogs"`, `"Titus
+    1. Here are some people's names: `"James Geddes"`, `"Fred Blogs"`, `"Titus
 	   Groan"`. Write down, in English, a very explicit set of instructions for
 	   splitting these names into two parts: a _first name_ and a _surname_.
 
