@@ -1,7 +1,7 @@
 #lang racket
 
-;; Compute income tax for 2012/13 tax year from gross income
 ;; income-tax: Number -> Number
+;; Compute income tax for 2012/13 tax year given gross income
 ;; 
 ;; For 2012/13, the tax rates and brackets are:
 ;; tax allowance: 8,105
