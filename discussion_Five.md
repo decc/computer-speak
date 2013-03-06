@@ -2,8 +2,8 @@
 >
 > — L. Peter Deutsch 
 
-Recusion
-========
+Recursion
+=========
 
 Last week, we wrote a program to process a list of numbers, of arbitrary
 length. In this case, we "processed" the list by adding up the numbers but the
@@ -25,7 +25,7 @@ Challenge
 =========
 
 National Grid produce half-hourly demand data. The data from 2012 is stored in
-the file `Data/demand-2012.txt`. The format of this file is very basic: there is
+the file `Data/INDO-2012.txt`. The format of this file is very basic: there is
 one line for each half-hour, where each line contains a single number which is
 the average power used in that half-hour (in MW).
 
