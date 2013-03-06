@@ -54,11 +54,13 @@ input-port))`, reads the next value from the file and "saves" it under the name
 `next-value`. Then the `cond` can both test the value for end-of-file *and* use
 it if it isn't end-of-file.
 
-Finally, here's the function to read all the data from the file:
+Finally, here are the commands to read all the data from the file:
 
 ```scheme
 (define ip (open-input-file "your/path/to/Data/INDO-2012.csv"))
 
 (define demand-data (read-list-of-values-from-fle ip))
+
+(close-input-port ip)
 ```
 	
